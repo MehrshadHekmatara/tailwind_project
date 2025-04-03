@@ -75,3 +75,4 @@ menu_close_btn.addEventListener("click", function () {
     elem.classList.add("dropdown-hover");
   });
 });
+

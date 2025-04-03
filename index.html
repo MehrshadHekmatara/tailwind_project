@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="dark" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +9,34 @@
   </head>
   <body>
     <!-- container start -->
-    <div class="w-full m-0 p-0">
+    <div id="topp" class="w-full m-0 p-0">
+      <!-- dark mode start -->
+      <label class="swap swap-rotate w-[40px] h-[40px] fixed bottom-0 left-0 z-50">
+        <!-- this hidden checkbox controls the state -->
+        <input type="checkbox" class="theme-controller" value="light" />
+      
+        <!-- sun icon -->
+        <svg
+          class="swap-off h-10 w-10 fill-current"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24">
+          <path
+            d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+        </svg>
+      
+        <!-- moon icon -->
+        <svg
+          class="swap-on h-10 w-10 fill-current"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24">
+          <path
+            d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
+        </svg>
+      </label>
+      <!-- dark mode end -->
+      <!-- go top bottom start -->
+       <a href="#topp" class="w-[40px] h-[40px] fixed bottom-0 right-0 z-50 cursor-pointer flex items-center justify-center font-bold bg-zinc-400/[0.2] rounded-md">TOP</a>
+      <!-- go top bottom end -->
       <!-- header start -->
     <div class="h-[140px] flex flex-col">
       <!-- top start -->
@@ -137,7 +164,7 @@
             </div>
             <div
               tabindex="0"
-              class="dropdown-content menu bg-base-100 rounded-box z-[1] w-[300px] h-[415px] shadow bg-zinc-800 right-0 flex flex-col flex-nowrap justify-evenly"
+              class="dropdown-content menu bg-base-100 rounded-box z-[1] w-[300px] h-[415px] shadow bg-zinc-800 right-0 flex flex-col flex-nowrap justify-evenly "
             >
               <!-- top start -->
               <div
@@ -267,7 +294,7 @@
       </div>
       <!-- top end -->
       <!-- bottom start -->
-      <div class="h-[70px] w-full items-center justify-evenly flex">
+      <div class="h-[70px] w-full items-center justify-evenly flex z-50">
         <!-- left start -->
          <div class="absolute footer_xl:static left-0 top-0 z-50 w-[50%] flex-col h-screen bg-zinc-800 pt-20 footer_xl:pt-0 footer_xl:h-[80%] hidden menu_undel_xl none-1 footer_xl:w-[80%] footer_xl:bg-zinc-400/[0.1] rounded-md footer_xl:flex footer_xl:flex-row footer_xl:justify-start gap-x-5">
           <div class="footer_xl:hidden flex w-full h-20 absolute top-5 cursor-pointe rounded-md right-0 items-center justify-between menu-close-btn pr-5">
@@ -3923,7 +3950,7 @@
                    </div>
                    <!-- top end -->
                     <!-- bottom start -->
-                     <div class="w-full footer_xl:h-[65%] h-[60%] bg-zinc-800 overflow-y-scroll">
+                     <div class="w-full footer_xl:h-[65%] h-[60%] bg-zinc-800  overflow-y-scroll">
                       <div class="w-full h-[20%] flex items-start font-semibold">LANGUAGE</div>
                       <div class="w-full h-[80%]">
                         <div class="card_md:flex-row card_md:items-center card_md:justify-between flex flex-col justify-center card_md:h-[30%] h-[40%] w-full">
