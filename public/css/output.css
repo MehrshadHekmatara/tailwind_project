@@ -1909,6 +1909,10 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -1947,10 +1951,6 @@ video {
 
 .top-5 {
   top: 1.25rem;
-}
-
-.top-\[0px\] {
-  top: 0px;
 }
 
 .top-\[11020px\] {
@@ -2009,18 +2009,6 @@ video {
   top: 7580px;
 }
 
-.top-\[70px\] {
-  top: 70px;
-}
-
-.top-\[\\0px\] {
-  top: \0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -2035,10 +2023,6 @@ video {
 
 .m-1 {
   margin: 0.25rem;
-}
-
-.mb-\[70px\] {
-  margin-bottom: 70px;
 }
 
 .mt-2 {
@@ -2133,6 +2117,10 @@ video {
   height: 400px;
 }
 
+.h-\[40px\] {
+  height: 40px;
+}
+
 .h-\[412px\] {
   height: 412px;
 }
@@ -2195,14 +2183,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[40px\] {
-  height: 40px;
 }
 
 .w-10 {
@@ -2277,6 +2257,10 @@ video {
   width: 35px;
 }
 
+.w-\[40px\] {
+  width: 40px;
+}
+
 .w-\[45\%\] {
   width: 45%;
 }
@@ -2323,14 +2307,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[40px\] {
-  width: 40px;
 }
 
 .-translate-y-1\/2 {
@@ -2421,12 +2397,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-}
-
-.space-y-\[70px\] > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(70px * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(70px * var(--tw-space-y-reverse));
 }
 
 .overflow-y-scroll {
@@ -2526,11 +2496,6 @@ video {
 .bg-zinc-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity, 1));
-}
-
-.bg-zinc-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(161 161 170 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'\/public\/images\/diveBackGround\.webp\'\)\] {
@@ -3181,12 +3146,5 @@ video {
 
   .card_xl\:w-\[23\%\] {
     width: 23%;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:bg-zinc-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(212 212 216 / var(--tw-bg-opacity, 1));
   }
 }
