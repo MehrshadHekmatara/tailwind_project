@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Group-1 Project</title>
+    <title>سرعت اینترنت</title>
     <link rel="stylesheet" href="./public/css/output.css" />
     <link rel="stylesheet" href="./public/css/setting.css" />
   </head>
@@ -39,7 +39,7 @@
       </svg>
     </label>
     <!-- dark mode end -->
-    <div class="cont">
+    <dic class="cont">
       <!-- menu start -->
       <div class="navbar bg-base-100 flex justify-between">
         <div class="navbar-start">
@@ -64,59 +64,50 @@
               tabindex="0"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a href="./crime.html"
-                  >تراکم میزان اتفاق افتادن زلزله در کشور</a
-                >
-              </li>
-              <li><a href="./history.html">نرخ بهای مسکن در مناطق تهران</a></li>
+              <li><a href="./index.html">بازگشت به صفحه اصلی</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">نمایش نقشه به کمک HTML</a>
+          <a class="btn btn-ghost text-xl">سرعت اینترنت در استان های ایران</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li>
-              <a href="./crime.html">تراکم میزان اتفاق افتادن زلزله در کشور</a>
-            </li>
-            <li><a href="./history.html">نرخ بهای مسکن در مناطق تهران</a></li>
+            <li><a href="./index.html">بازگشت به صفحه اصلی</a></li>
           </ul>
         </div>
       </div>
       <!-- menu end -->
-      <!-- context start -->
-      <div
-        class="w-[70%] flex card_md:h-[300px] h-[500px] mx-auto bg-slate-200 rounded-2xl p-5 justify-between"
-      >
-        <div class="w-[30%] h-full ms-10 flex flex-col justify-between text-black">
-          <p>اصول سیستم های اطلاعات مکانی</p>
-          <p>دکتر فرهاد حسینعلی</p>
-          <p class="font-bold">گروه اول:</p>
-          <p>فرزانه نادری</p>
-          <p>شادمهر رافتی</p>
-          <p>مهرشاد حکمت آرا</p>
-          <p>امیرعلی خلیفه</p>
-        </div>
-        <div class="w-[30%] h-full flex flex-col justify-between">
-          <img
-            src="./public/images/University_of_Tehran_logo.svg.png"
-            alt="tehran university"
-            class="card_md:w-[30%] w-full h-[30%]"
-          />
-          <p class="font-bold text-2xl text-black">بهار 1404</p>
-        </div>
+      <!-- text start -->
+      <div class="w-[90%] flex flex-col mt-5 ms-5 bg-slate-400 rounded-xl p-3">
+        <h2 class="font-bold mt-1 ms-1">توضیحات</h2>
+        <p>
+          داده‌های  جدول مربوطه طبق آخرین بروزرسانی یکپارچه قیمتها دریافت شده و مربوط به دیماه 1403 میباشد.
+        </p>
+        <p> داده‌های دریافت شده داخل جدول اطلاعات توصیفی نقشه تهران وارد شده و با دسته‌بندی مناسب بصورت نقشه نرخ بهای مسکن نمایش داده شده است.</p>
       </div>
-      <!-- context end -->
-      <!-- footer start -->
-      <footer
-        class="footer footer-center bg-base-300 text-base-content p-4 mt-7 fixed bottom-0"
+      <!-- text end -->
+      <!-- map start -->
+      <div
+        class="flex justify-center w-fit mx-auto mt-10 flex-col items-center bg-slate-300 p-5 rounded-2xl"
       >
+        <img src="./public/images/priceMap.png" alt="buildings" class="mt-3" />
+        <a
+          href="./public/images/priceMap.png"
+          download="priceMap.png"
+          class="text-blue-400 font-bold mt-4 mb-3"
+          >دانلود تصویر</a
+        >
+      </div>
+      <!-- map end -->
+      <!-- footer start -->
+      <footer class="footer footer-center bg-base-300 text-base-content p-4 mt-7">
         <aside>
-          <p>Copyright © {2025} - All right reserved by Group-1</p>
+          <p>
+            Copyright © {2025} - All right reserved by Group-1
+          </p>
         </aside>
       </footer>
       <!-- footer end -->
-    </div>
+    </dic>
     <!-- container end -->
   </body>
 </html>
